@@ -1,0 +1,7 @@
+domain: my.domain
+repo: github.com/shahincsejnu/k8s-demo-controller-by-kubebuilder
+resources:
+- group: webapp
+  kind: Guestbook
+  version: v1
+version: "2"
